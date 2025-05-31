@@ -13,6 +13,7 @@ const headerMessage = `
 for (let index = 1; index <= limit; index++) {
     outputMessage += `${base} X ${index} = ${base * index}\n`
 }
+
 outputMessage = headerMessage + outputMessage
 
 if( showTable ) console.log(outputMessage)
